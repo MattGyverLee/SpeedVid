@@ -1,4 +1,10 @@
-# SpeedVid
+# SpeedVid and FadeAtTime
+
+This repository contains 2 scripts for dealing with worship songs (though they will work for any video format supported by FFMPEG) that drag on because the tempo is too slow or there is too much repetition.
+
+SpeedVid speeds up the video by a user-chosen factor. FadeAtTime fades audio to silent and video to black at a chosen cut time and duration. If you need to use them both, use SpeedVid first and pass the accelerated file to FadeAtTime.
+
+## SpeedVid
 
 SpeedVid is a simple "drop" script for Windows computers to solve the specific problem of slow worship videos. 
 
@@ -19,11 +25,11 @@ One is called  "Drag Video Here to Speed Up.bat" and it is my script to do the w
 ![Success](/img/output.png)
 7. Play the new video it created to see how it feels. 
 8. If you want more or less speed, start again and drag the original video onto the script and choose a different speed multiplier. Delete any versions you don't need. 
-## Notes:
+### Notes:
 1. Make sure you always keep and drag the original file, don't reprocess the output file (the one with `-2.0x`) again or it will lose quality.  
 2. If something goes wrong, the script should explain what is wrong.
 
-# FadeAtTime 
+## FadeAtTime 
 
 FadeAtTime is a simple "drop" script for Windows computers to solve the specific problem of long worship videos.
 
@@ -39,6 +45,6 @@ FadeAtTime is a simple "drop" script for Windows computers to solve the specific
 5. Lots of text will fly by as the video is converted, and hopefully you will see a success message. You'll notice that the output filename ends in `-faded`.
 6. Play the new video it created to verify the fade. 
 
-## Notes
+### Notes
 1. Make sure you always keep and drag the original file, as the new copy will not include the end of the video.  
 2. If something goes wrong, the script should explain what is wrong.
