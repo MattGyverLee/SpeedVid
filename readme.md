@@ -69,4 +69,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 FFMPEG is not my work and is governed by a different license (GPL) constaining its use, found here.
 [https://www.ffmpeg.org/legal.html|https://www.ffmpeg.org/legal.html]
 
-To avoid licensing issues. I no longer offer FFMPEG binaaries on this repository. You can find the newest versions of FFMPEG here: [https://www.ffmpeg.org/|https://www.ffmpeg.org/].
+To avoid licensing issues, I no longer offer FFMPEG binaaries on this repository. You can find the newest versions of FFMPEG here: [https://www.ffmpeg.org/|https://www.ffmpeg.org/].
